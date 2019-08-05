@@ -5,6 +5,10 @@ class Application
     resp.write "Hello, World"
     resp.finish
   end
+  
+  def self.all 
+    @all
+  end
 
 end
 
